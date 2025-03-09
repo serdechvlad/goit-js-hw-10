@@ -4,16 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countdown Timer</title>
-    <!-- Підключення CSS бібліотек -->
 
     <link rel="icon" type="image/x-icon" href="/goit-js-hw-10/assets/favicon-DcBtz0py.svg" />
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/vendor-BZoxUzx5.js"></script>
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/1-timer-DGoFP3-A.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/1-timer-7ny1LPGy.css">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-DRAOUfWK.css">
+    <script type="module" crossorigin src="/goit-js-hw-10/1-timer.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-A92OCY9B.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CUZofXIC.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/1-timer-qPDUnr0Y.css">
   </head>
   <body>
-    <!-- Поле вибору дати -->
     <input
       type="text"
       id="datetime-picker"
@@ -21,10 +20,8 @@
       placeholder="Select date and time"
     />
 
-    <!-- Кнопка "Start" -->
     <button type="button" data-start disabled>Start</button>
 
-    <!-- Таймер -->
     <div class="timer">
       <div class="field">
         <span class="value" data-days>00</span>
@@ -44,8 +41,5 @@
       </div>
     </div>
 
-    <!-- Підключення JavaScript бібліотек -->
-
-    <!-- Підключення основного JavaScript файлу -->
   </body>
 </html>
