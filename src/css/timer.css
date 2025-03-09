@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Контейнер для таймера */
+.timer {
+  display: flex;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для кожного блоку (дні, години, хвилини, секунди) */
+.field {
+  text-align: center;
+}
+
+/* Стилі для значень (числа) */
+.value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  background-color: #e0e0e0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Стилі для підписів (дні, години, хвилини, секунди) */
+.label {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 5px;
+  display: block;
+}
+
+/* Стилі для поля вибору дати та кнопки */
+#datetime-picker {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button[data-start] {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[data-start]:hover {
+  background-color: #0056b3;
+}
+
+button[data-start]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
