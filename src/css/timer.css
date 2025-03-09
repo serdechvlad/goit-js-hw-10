@@ -8,7 +8,6 @@ body {
   margin: 0;
 }
 
-/* Контейнер для таймера */
 .timer {
   display: flex;
   gap: 20px;
@@ -18,12 +17,10 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Стилі для кожного блоку (дні, години, хвилини, секунди) */
 .field {
   text-align: center;
 }
 
-/* Стилі для значень (числа) */
 .value {
   font-size: 2.5rem;
   font-weight: bold;
@@ -34,7 +31,6 @@ body {
   border-radius: 5px;
 }
 
-/* Стилі для підписів (дні, години, хвилини, секунди) */
 .label {
   font-size: 1rem;
   color: #666;
@@ -42,7 +38,6 @@ body {
   display: block;
 }
 
-/* Стилі для поля вибору дати та кнопки */
 #datetime-picker {
   padding: 10px;
   font-size: 1rem;
@@ -60,6 +55,7 @@ button[data-start] {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-right: 10px;
 }
 
 button[data-start]:hover {
